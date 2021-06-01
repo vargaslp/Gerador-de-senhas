@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    padding: 25px;
+    background-color: rgb(253, 253, 253);
+}
+
+.container{
+    max-width: 640px;
+    margin: auto;
+    background-color: rgb(58, 20, 94);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    line-height: 2;
+    font-size: 20px;
+    color: rgb(252, 247, 247);
+    padding: 30px;
+    
+}
+.senha-gerada{
+    margin: 40px 0;
+    color: wheat;
+    font-size: 30px;
+
+}
+
+button{
+    line-height: 2;
+    font-size: 15px;
+    margin: 40px 0;
+}
+
+input[type = "checkbox"]{
+    width: 17px;
+    height: 17px;
+}

@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    padding: 25px;
+    background-color: rgb(253, 253, 253);
+}
+
+.container{
+    max-width: 640px;
+    margin: auto;
+    
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 10px;
+    
+}
+
+#formID{
+    padding: 5px;
+}
+input{
+    display: block;
+    height: 30px;
+}
+input:focus{
+    outline: brown;
+}
+button{
+    border: none;
+    background: rgb(90, 4, 4);
+    font-family: 'Roboto', sans-serif;
+    color: antiquewhite;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background: cornflowerblue;
+}
+
+.resultado{
+
+    
+    height: 80px;
+}
+
+.perigoso{
+    background-color: red;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.normal{
+    background-color: green;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.relogio{
+    font-size: 50px;
+}
+.pausado{
+    color: red;
+}
+
+.display{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: right;
+    width: 97%;
+    font-weight: bold;
+}
+
+.error{
+    font-size: 12px;
+    color: red;
+}
+
+a{
+    color: wheat;
+}
